@@ -29,6 +29,6 @@ public class UpdateClientTest extends ConfigurationClass {
 		Map<String, String> data = excelUtility.getData("editClient", testCaseName);
 		EditClientPage editclientPage = new EditClientPage(driver);
 		editclientPage.updateClientInformation("client_password", data.get("client_password"));
-//hello world
+
 	}
 }
