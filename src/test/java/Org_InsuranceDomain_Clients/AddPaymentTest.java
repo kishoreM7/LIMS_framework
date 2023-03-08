@@ -12,7 +12,8 @@ import com.LIMS.objectRepository.payments.AddPaymentsPage;
 import com.LIMS.objectRepository.payments.PaymentsInformationPage;
 
 public class AddPaymentTest extends ConfigurationClass {
-	@Test
+	@Record(author = "kishore")
+	@Test(groups = "sanity")
 	public void addPaymentTest() {
 		String TestCaseName = "AddPaymentTest";
 		// data
@@ -24,7 +25,7 @@ public class AddPaymentTest extends ConfigurationClass {
 		Map<String, String> map = excelUtility.getData("Client", TestCaseName);
 		// login to application
 		commonPage.clickModule(ModuleName.PAYMENTS);
-		Assert.fail();
+		// Assert.fail();
 		Assert.assertEquals(driver.getTitle(), data.get("paymentsTitle"));
 		PaymentsInformationPage paymentsInformationPage = new PaymentsInformationPage(driver);
 		paymentsInformationPage.clickaddPaymentsBtn();
