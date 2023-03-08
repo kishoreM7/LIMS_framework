@@ -35,5 +35,6 @@ public class BaseClass {
 	protected CommonPage commonPage;
 	public ExtentTest test;
 	protected ReportUtility report;
+	//base class
 
 }

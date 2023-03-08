@@ -40,7 +40,7 @@ public class ConfigurationClass extends BaseClass {
 		propertyUtility = new PropertyUtility(AutoConstants.TEST_PROPERTY_FILE_PATH);
 		webDriverUtility = new WebDriverUtility();
 		javaUtility = new JavaUtility();
-
+//comment
 		// common data
 		browser = propertyUtility.getPropertyData(PropertiesFile.BROWSER);
 		url = propertyUtility.getPropertyData(PropertiesFile.URL);
