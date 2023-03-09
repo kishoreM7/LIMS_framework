@@ -17,13 +17,9 @@ public class AddClientTest extends ConfigurationClass {
 	@Test(groups = "sanity")
 	public void addClientTest() {
 		String TestCaseName = "AddClientTest";
-
 		SoftAssert softAssert = new SoftAssert();
-
 		ClientsInformationPage clientsInformationPage = new ClientsInformationPage(driver);
-
 		CommonPage commonPage = new CommonPage(driver);
-
 		Map<String, String> map = excelUtility.getData("ClientVerificationData", TestCaseName);
 		softAssert.assertEquals(driver.getTitle(), map.get("homePageTitle"));
 		commonPage.clickModule(ModuleName.CLIENTS);
