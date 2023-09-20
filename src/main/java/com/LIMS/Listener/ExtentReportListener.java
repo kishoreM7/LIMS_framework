@@ -15,13 +15,9 @@ import com.LIMS.genericUtility.reportUtility.ReportUtility;
 
 /**
  * This class contains wil generate report of scripts takes screenshot of failed
- * testcases
- * this is my classs
- my name is kishore mallarapu
+ * 
  * @author kishore mallarapu
- * this is my agenda 
- * i will do what ever i want
- era erripuka
+ *
  *
  */
 public class ExtentReportListener implements ITestListener, ISuiteListener {
