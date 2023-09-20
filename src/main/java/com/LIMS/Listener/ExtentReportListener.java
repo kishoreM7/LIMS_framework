@@ -14,7 +14,7 @@ import com.LIMS.genericUtility.instanceTransfer.UtilityInstanceTransfer;
 import com.LIMS.genericUtility.reportUtility.ReportUtility;
 
 /**
- * This class contains wil generate report of scripts takes screenshot of failed
+ * This class contains wil generate report of scripts takes screenshot of failed cases
  * 
  * @author kishore mallarapu
  *
