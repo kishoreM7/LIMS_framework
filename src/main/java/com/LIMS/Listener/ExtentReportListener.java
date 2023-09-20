@@ -7,16 +7,17 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+
 import com.LIMS.baseClass.ConfigurationClass;
 import com.LIMS.genericUtility.annotations.Record;
 import com.LIMS.genericUtility.instanceTransfer.UtilityInstanceTransfer;
 import com.LIMS.genericUtility.reportUtility.ReportUtility;
 
 /**
- * This class contains wil generate report of scripts takes screenshot of failed
- * testcases
+ * This class contains wil generate report of scripts takes screenshot of failed cases
  * 
  * @author kishore mallarapu
+ *
  *
  */
 public class ExtentReportListener implements ITestListener, ISuiteListener {

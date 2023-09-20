@@ -18,9 +18,7 @@ import com.aventstack.extentreports.ExtentTest;
  *
  */
 public class BaseClass {
-
 	protected ExcelUtility excelUtility;
-
 	protected PropertyUtility propertyUtility;
 	public WebDriverUtility webDriverUtility;
 	protected WaitUtility waitUtility;
@@ -36,5 +34,6 @@ public class BaseClass {
 	public ExtentTest test;
 	protected ReportUtility report;
 	//base class
+	//super most classs
 
 }
