@@ -16,8 +16,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LaunchBrowser {
 	public static void main(String[] args) throws IOException {
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver();
+		//WebDriverManager.chromedriver().setup();
+		
+		//WebDriver driver = new ChromeDriver();
+		WebDriver driver = null;
+		
 		driver.get("https://open.spotify.com/");
 
 	}

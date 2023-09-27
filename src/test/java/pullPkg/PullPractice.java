@@ -5,7 +5,7 @@ public class PullPractice {
 		System.out.println("pull package");
 		//hello mama namaste
 		//my name is kishore mallarapu
-		//hai hello namaste
+		//hai hello namaste 
 	}
 
 }
